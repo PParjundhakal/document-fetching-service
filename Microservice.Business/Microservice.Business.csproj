@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservice.Database\Microservice.Database.csproj" />
+    <ProjectReference Include="..\Microservice.Services\Microservice.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="CsvHelper" Version="29.0.0" />
+    <PackageReference Include="PsychPress.SecureDataStore" Version="0.0.3846" />
+    <PackageReference Include="PsychPress.Utilities" Version="0.0.3846" />
+  </ItemGroup>
+
+</Project>
